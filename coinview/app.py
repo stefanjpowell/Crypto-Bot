@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, flash, redirect, jsonify
 import config, csv, datetime
-from binance.client import Client
 from binance.enums import *
 
 app = Flask(__name__)
